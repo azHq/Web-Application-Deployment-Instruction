@@ -187,6 +187,7 @@ git clone -b "branch_name" "REPO_URL" "REPO_DIR"
 ```bash
 sudo ./svc.sh install
 sudo ./svc.sh start
+sudo systemctl restart actions.runner*
 ```
 
 ✅ Runner stays alive after terminal closes or VM restarts.
