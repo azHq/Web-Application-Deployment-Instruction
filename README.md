@@ -87,6 +87,13 @@ sudo usermod -aG docker deploy
 newgrp docker
 ```
 
+OR
+
+```bash
+sudo usermod -aG docker deploy
+sudo systemctl restart actions.runner*
+```
+
 Verify:
 
 ```bash
